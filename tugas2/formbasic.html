@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <h2>Form Sederhana</h2>
+  <form>
+    <label for="firstName">Nama Depan:</label><br>
+    <input type="text" id="firstName" name="firstName" placeholder="Masukkan Nama Depan" required><br><br>
+    
+    <label for="lastName">Nama Belakang:</label><br>
+    <input type="text" id="lastName" name="lastName" placeholder="Masukkan Nama Belakang" required><br><br>
+    
+    <label for="address">Alamat:</label><br>
+    <input type="text" id="address" name="address" placeholder="Masukkan Alamat" required><br><br>
+    
+    <label for="birthDate">Tanggal Lahir:</label><br>
+    <input type="date" id="birthDate" name="birthDate" required><br><br>
+    
+    <label for="gender">Jenis Kelamin:</label><br>
+    <select id="gender" name="gender" required>
+      <option selected disabled value="">Pilih Jenis Kelamin</option>
+      <option value="Laki-laki">Laki-laki</option>
+      <option value="Perempuan">Perempuan</option>
+    </select><br><br>
+    
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" placeholder="Masukkan Username" required><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Masukkan Password" required><br><br>
+    
+    <label for="photo">Browse Foto:</label><br>
+    <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
